@@ -1,11 +1,30 @@
+
 nav {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 25px;
   padding: 15px;
   background: #eee;
 }
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: black;
+}
+
+.form-container {
+  margin: 30px;
+  max-width: 350px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
 }
